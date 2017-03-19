@@ -1,6 +1,4 @@
-package game;
-
-import game.Ship;
+package Game;
 
 import javax.management.MXBean;
 import java.util.List;
@@ -22,8 +20,6 @@ public interface Board {
 
     @MXBean
     public interface Gamer{
-
-
 
         /**
          *

@@ -1,4 +1,4 @@
-package game;
+package Game;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ public interface Ship {
      *
      * @return List<Deck> список палуб корабля
      */
-    List<Cell> getDecks();
+    List<Deck> getDecks();
 
     /**
      * утснавливает список палуб корабля
